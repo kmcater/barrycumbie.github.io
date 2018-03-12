@@ -1,12 +1,12 @@
 //my js file...a whole buncha demo stuff. 
 
-$(document).ready(function(){ //this is a standard 1st line in all js files, in jQ format. this makes sure the html file is done before any scripting occurs
+//$(document).ready(function(){ //this is a standard 1st line in all js files, in jQ format. this makes sure the html file is done before any scripting occurs
 //this above is self-calling f/n
 
-    $("button").click(function() {
-		console.log('clicked'); //adds event to EVERY button to add msg to console when clicked
-        $("p").toggle(); //hides and shows it. 
-		console.log('clicked'); 
+   // $("button").click(function() {
+		//console.log('clicked'); //adds event to EVERY button to add msg to console when clicked
+        //$("p").toggle(); //hides and shows it. 
+		//console.log('clicked'); 
 }); 
 
 //print the dom: 
