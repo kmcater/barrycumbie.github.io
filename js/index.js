@@ -7,7 +7,7 @@ $(document).ready(function(){ //this is a standard 1st line in all js files, in 
 		//console.log('clicked'); //adds event to EVERY button to add msg to console when clicked
         //$("p").toggle(); //hides and shows it. 
 		//console.log('clicked'); 
-}); 
+//}); 
 
 //print the dom: 
 var indexItems = document.getElementsByTagName("*");
@@ -18,6 +18,7 @@ for (var i=0, max=indexItems.length; i < max; i++) {
 
 var allDOMElements = document; //loade the DOCUMENT into a var 
 console.log(indexItems[i].tagName); 
+}
 
 //document.onload = doEverything();
 
