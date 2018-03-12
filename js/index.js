@@ -10,9 +10,9 @@ $(document).ready(function(){ //this is a standard 1st line in all js files, in 
 }); 
 
 //print the dom: 
-var all = document.getElementsByTagName("*");
+var indexItems = document.getElementsByTagName("*");
 
-for (var i=0, max=all.length; i < max; i++) {
+for (var i=0, max=indexItems.length; i < max; i++) {
      // Do something with the element here
 }
 
