@@ -1,6 +1,6 @@
 //my js file...a whole buncha demo stuff. 
 
-//$(document).ready(function(){ //this is a standard 1st line in all js files, in jQ format. this makes sure the html file is done before any scripting occurs
+$(document).ready(function(){ //this is a standard 1st line in all js files, in jQ format. this makes sure the html file is done before any scripting occurs
 //this above is self-calling f/n
 
    // $("button").click(function() {
@@ -17,20 +17,20 @@ for (var i=0, max=indexItems.length; i < max; i++) {
 }
 
 var allDOMElements = document; //loade the DOCUMENT into a var 
-console.log(allDOMElements); 
+console.log(indexItems[i].tagName); 
 
 //document.onload = doEverything();
 
-console.log('loaded and everything is done'); 
+//console.log('loaded and everything is done'); 
 
 
-	console.log("...f/n called...");
+	//console.log("...f/n called...");
 
-		document.querySelector('h1').innerHTML = "Everything Done!"; 
-		$('h1').text("Now I'm doing jQuery!").addClass("blue");
+	//	document.querySelector('h1').innerHTML = "Everything Done!"; 
+	//	$('h1').text("Now I'm doing jQuery!").addClass("blue");
 
-		var elDoc = document;
-		console.log(elDoc);
+	//	var elDoc = document;
+	//	console.log(elDoc);
 
 
 
